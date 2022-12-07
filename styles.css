@@ -1,0 +1,47 @@
+/* -- Fonts -- */
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+/* -- CSS reset -- */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* -- Global -- */
+:root {
+--primary-clr: hsl(8, 36%, 54%);
+--secondary-color: hsl(26, 55%, 85%);
+--ff-font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+/* -- Design card -- */
+
+
+.card {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  padding: 2em;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.14), 10px 10px 14px rgba(0, 0, 0, 0.14) ;
+}
+
+.card h2 {
+  font-family: var(--ff-font-family);
+  font-weight: 700;
+  color: var(--primary-clr);
+  font-size: 3rem;
+  margin: 0;
+}
+
+.image-dog {
+  width: 300px;
+  border-radius: 150px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: var(--primary-clr);
+  margin-bottom: 0.65em;
+}
